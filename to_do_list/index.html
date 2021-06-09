@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project To do List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="conteiner">
+      <header>
+        <h1>Minha Lista de Tarefas</h1>
+        <p id="funcionamento">
+          Clique duas vezes em um item para marcá-lo como completo
+        </p>
+      </header>
+      
+      <section id = "add">
+        <input  id = 'texto-tarefa' type="text" value="" placeholder="Insira uma Tarefa">
+        <button id = "criar-tarefa">Adicionar Tarefa</button>
+      </section>
+    
+      <!-- <section>
+        <ol id = "lista-tarefas"></ol>
+      </section> -->
+
+      <div class='so-botoes'>              
+        <section class = 'botoes'>
+          <button id = "apaga-tudo">Apagar Lista</button>
+        </section>
+      
+        <section class = 'botoes'>
+          <button id = 'remover-finalizados'>Deletar Tarefas Concluídas</button>
+        </section>
+      
+        <section class = 'botoes'>
+          <button id="salvar-tarefas"> Salvar Tarefas </button >        
+        </section> 
+
+        <section class = 'botoes'>
+          <button id = "remover-selecionado"> Remover Item Selecionado </button>
+        </section>
+
+      </div>
+
+      <div class = 'mover'>
+        <section >
+          <input id="mover-cima" type="image" src="Ativo 10@4x.png" />
+        </section>
+
+        <section>
+          <input id="mover-baixo" type="image" src="Ativo 10@4x.png" />
+        </section>
+      </div>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
