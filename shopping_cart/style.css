@@ -153,7 +153,8 @@
 }
 
 .item .item__image {
-  width: 100%;
+  width: 70%;
+  
 }
 
 .item .item__add {
@@ -200,4 +201,13 @@
 
 .loading {
   font-size: 26px;
+}
+
+.total-price {
+  font-size: 25px;
+  text-align: center;
+  margin: 10px ;
+  background: rgb(216, 218, 215);
+  
+  
 }
