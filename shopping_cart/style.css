@@ -119,6 +119,8 @@
 }
 
 .container {
+  margin-top: 55px;
+  margin-bottom: 55px;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -132,14 +134,16 @@
 }
 
 .item {
-  border: 2px solid blue;
-  border-radius: 5px;
+  background-color: white;
+  border: 2px solid #f8f9fa;
+  border-radius: 10px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   height: auto;
-  margin: 5px;
+  margin: 15px;
   width: 200px;
+  padding: 15px;
 }
 
 .item .item__sku {
